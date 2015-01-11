@@ -1,5 +1,5 @@
 
-# Here we will first convert the text file into a csv file and name it power.csv
+# Here we will first convert the text file into a csv file and name it power.csv. I already subsetted the data using Excel methods. 
 p<-read.csv("power.csv", header = TRUE)
  
 # This is to make sure the data is correct
