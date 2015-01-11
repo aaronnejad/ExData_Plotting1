@@ -1,5 +1,10 @@
 
-# Here we will first convert the text file into a csv file and name it power.csv. I already subsetted the data using Excel methods. 
+# Here we will first convert the text file into a csv file and name it "power.csv". I already subsetted the data using Excel methods. Please see instructions for plot1.R 
+# for further explanation
+#In folder Desktop/Coursera/Explore should find a csv file called "power.csv"
+# as explained in previous R file. Subsetting couldve been done using R's subsetting methods however for this simple
+# section where only 2 variables are used I used Excel Csv's subsetting methods. For plot 3 and 4 I used read.csv.sql
+
 p<-read.csv("power.csv", header = TRUE)
  
 # This is to make sure the data is correct
