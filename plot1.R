@@ -6,6 +6,8 @@
 #For the first two plots I converted the files direct into csv as they have fewer columns. For plot 3 and 4 I use 
 #read.csv.sql
 
+#Now plotting the chart for plot1
+
 p<-read.csv("power.csv",header=TRUE)
 
 #Now plot the data 
