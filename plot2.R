@@ -28,3 +28,4 @@ p$datetime<-paste(p$Date, p$Time)
 dev.copy(png, file="plot2.png", height = 480, width =480)
 
  dev.off()
+#should find file in current dir named 'plot3.png'
