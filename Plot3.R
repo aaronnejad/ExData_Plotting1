@@ -28,3 +28,4 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 
 # close off graphics device
 dev.off()
+#
